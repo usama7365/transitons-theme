@@ -1,0 +1,340 @@
+
+
+
+.body1
+{
+
+height: 650px;
+width: 100%;
+/* border: 1px solid black; */
+background-image: url(nav1.jpg);
+background-size: 100% 100%;
+position: relative;
+}
+.nav1
+{
+
+height: 100px;
+width: 100%;
+/* border: 1px solid black; */
+position: relative;
+}
+ul
+{
+position: absolute;
+left: 650px;
+top: 20px;
+
+}
+li{
+
+
+    float: left;
+    margin-left: 50px;
+    list-style: none;
+    color: white;
+    transition-duration: 3s;
+}
+li:hover{
+
+transform: translate(1.3);
+cursor: pointer;
+color:yellowgreen;
+}
+.body1-h1
+{
+
+color:white;
+position: absolute;
+left: 440px;
+font-size: 45px;
+transition-duration: 3s;
+}
+
+.scrical1
+{
+height: 7px;
+width: 7px;
+border: 1px solid white;
+position: absolute;
+left: 600px;
+top: 380px;
+border-radius: 50%;
+}
+.scrical2
+{
+height: 7px;
+width: 7px;
+border: 1px solid white;
+position: absolute;
+left: 613px;
+top: 380px;
+border-radius: 50%;
+background: white;
+}
+.scrical3
+{
+height: 7px;
+width: 7px;
+border: 1px solid white;
+position: absolute;
+left: 625px;
+top: 380px;
+border-radius: 50%;
+background: white;
+}
+.body2
+{
+
+height:600px;
+width: 99%;
+background-color: #eff0f0;
+position: relative;
+}
+.body2-img
+{
+
+height: 350px;
+width: 480px;
+/* border: 1px solid black; */
+position: absolute;
+top:100px;
+left: 100px;
+background-image: url(half-block2.jpg);
+background-size: 100% 100%;
+transition-duration: 1s;
+}
+.body2-img:hover
+{
+
+transform: scale(1.1);
+cursor: pointer;
+}
+
+.body2-big
+{
+height: 600px;
+width: 53%;
+/* border: 1px solid black; */
+position: relative;
+ left:46%;
+}
+.body2-div1
+{
+
+height: 250px;
+width: 100%;
+/* border: 1px solid black; */
+position: absolute;
+top:80px;
+transition-duration: 1s;
+}
+.body2-div1:hover
+{
+transform: scale(.9);
+
+}
+.body2-p1
+{
+color:#54ddd0;
+}
+.body2-h1
+{
+font-size: 40px;
+position: absolute;
+top:-2px;
+transition-duration: 1s;
+}
+.body2-h1:hover
+{
+transform: translate(20px);
+color:red;
+cursor: pointer;
+}
+.body2-p2
+{
+
+position: absolute;
+top:80px;
+transition-duration: 1s;
+}
+
+.body2-p2:hover
+{
+
+transform: translate(30px);
+color:yellow;
+cursor: pointer;
+}
+.body2-div3
+{
+
+height: 250px;
+width: 250px;
+/* border: 1px solid black; */
+position: relative;
+top:330px;
+transition-duration: 1s;
+}
+.body2-div3:hover
+{
+
+transform: scale(1.1);
+cursor: pointer;
+
+}
+.body2-div4
+{
+
+height: 250px;
+width: 250px;
+/* border: 1px solid black; */
+position: relative;
+top:80px;
+left: 300px;
+transition-duration: 1s;
+}
+.body2-div4:hover
+{
+
+transform: scale(0.9);
+cursor: pointer;
+}
+.body3
+{
+
+height: 600px;
+width: 100%;
+/* border: 1px solid black; */
+position: relative;
+top:100px;
+}
+.para1
+{
+
+text-align: center;
+transition-duration: 3s;
+}
+.para1:hover
+{
+transform: skew(20deg);
+color:green;
+cursor: pointer;
+}
+.head1
+{
+
+font-size: 60px;
+text-align: center;
+margin-top: -20px;
+color:#382bc5;
+transition-duration: 2s;
+}
+.head1:hover
+{
+
+transform: scale(1.1);
+cursor: col-resize;
+color: grey;
+}
+.para2
+{
+text-align: center;
+margin-top: -30px;
+transition-duration: 2s;
+}
+.para2:hover
+{
+transform: translate(50px);
+cursor: ew-resize;
+color: hotpink;
+}
+.box1
+{
+height: 250px;
+width: 250px;
+color: rgb(89, 0, 255);
+border: 1px solid coral;
+position: absolute;
+left: 150px;
+top:280px;
+transition-duration: 2s;
+transition-property: all;
+}
+.box1:hover
+{
+color: white;
+border-radius: 50%;
+background-color: coral;
+
+}
+.box2
+{
+height: 250px;
+width: 250px;
+border: 1px solid orange;
+position: absolute;
+left: 480px;
+top:280px;
+color: salmon;
+transition-duration: 2s;
+transition-property: all;
+}
+.box2:hover
+{
+background-color: crimson;
+border-radius: 50%;
+color: white;
+
+
+}
+
+.box3
+{
+height: 250px;
+width: 250px;
+border: 1px solid cyan;
+position: absolute;
+left: 820px;
+top:280px;
+transition-property: all;
+transition-duration: 2s;
+color: red;
+
+}
+.box3:hover
+{
+border-radius: 50%;
+color: white;
+background-color: darkblue;
+
+
+}
+.head01
+{
+
+font-size: 35px;
+color:rgb(255, 38, 0);
+position: absolute;
+left: 100px;
+}
+.head02
+{
+text-align: center;
+margin-top:60px;
+color: brown;
+}
+.para01
+{
+text-align: center;
+}
+.body4
+{
+height: 490px;
+width: 100%;
+opacity: 0.9;
+position: relative;
+background-image: url(bg-img7.jpg);
+background-size: 100% 100%;
+top:110px;
+}
